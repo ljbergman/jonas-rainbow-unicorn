@@ -31,6 +31,15 @@ function jonas(x:string):string {
 
 console.log(jonas("Kalle"));
 
+// For in loop
+for (let i in arr) {
+
+    console.log(jonas(arr[i]));
+
+}
+
+
+
 
 
 

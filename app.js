@@ -14,3 +14,7 @@ function jonas(x) {
     return "Hej " + x;
 }
 console.log(jonas("Kalle"));
+// For in loop
+for (let i in arr) {
+    console.log(jonas(arr[i]));
+}
