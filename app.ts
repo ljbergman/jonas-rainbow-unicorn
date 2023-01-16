@@ -1,9 +1,10 @@
 
-
+// Array
 const arr:string[] = ["apa", "orangutang", "gorilla", "get", "giraff"];
 
 console.log(arr);
 
+// Objekt
 let mittObjekt: {
 
  x: number,
@@ -19,4 +20,19 @@ let mittObjekt: {
 }
 
 console.log(mittObjekt);
+
+// Funktion
+
+function jonas(x:string):string { 
+
+    return "Hej " + x;
+    
+}
+
+console.log(jonas("Kalle"));
+
+
+
+
+
 
